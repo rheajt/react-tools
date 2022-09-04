@@ -39,9 +39,9 @@ export const Loading: React.FC<LoadingProps> = () => {
                 left: 0,
             }}
         >
-            <h1 style={{ color: 'white' }}>
+            <h3 style={{ color: 'white' }}>
                 <p>{message}</p>
-            </h1>
+            </h3>
         </div>
     );
 };
