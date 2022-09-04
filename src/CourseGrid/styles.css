@@ -1,0 +1,164 @@
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 1em;
+}
+
+.column {
+    width: 100%;
+}
+
+.courses {
+    min-width: 400px;
+}
+
+label {
+    display: block;
+}
+
+select {
+    width: 100%;
+    max-width: 300px;
+}
+
+.section-table.row {
+    display: flex;
+}
+
+.section-selector {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-selector.selected {
+    background-color: gray;
+}
+
+.section-selector label span {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.toggles {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.toggles > div {
+    display: flex;
+}
+.toggles > div > div {
+    margin-right: 2em;
+    text-align: center;
+}
+
+.course-grid {
+    display: grid;
+    /* grid-template-columns: 40px repeat(8, 1fr); */
+    grid-gap: 3px;
+}
+
+.grid-header {
+    text-align: center;
+    font-weight: bold;
+}
+.grid-header span {
+    font-weight: normal;
+    font-size: 0.7em;
+}
+
+.grid-column {
+    width: 40px;
+}
+
+.grid-cell {
+    height: 100px;
+    border: 1px solid lightgray;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.grid-cell.active {
+    border: 5px dotted white;
+}
+
+.grid-cell .semester {
+    position: absolute;
+    right: 1em;
+    top: -1em;
+    background-color: gray;
+    color: white;
+    padding: 0 0.5em;
+    transform: skew(-4deg, 12deg);
+}
+.cvm {
+    background-color: red;
+    color: white;
+}
+
+.ela,
+.ell {
+    background-color: limegreen;
+    color: black;
+}
+
+.cla,
+.cll {
+    background-color: #86cd32;
+}
+
+.ccv,
+.cce {
+    background-color: blue;
+    color: white;
+}
+
+.cmi,
+.cwu,
+.cda,
+.cva {
+    background-color: aqua;
+}
+
+.ias {
+    background-color: teal;
+}
+
+.ims,
+.bio {
+    background-color: green;
+    color: white;
+}
+
+.imm,
+.mel,
+.msl {
+    background-color: purple;
+    color: white;
+}
+.phe {
+    background-color: gold;
+}
+.des {
+    background-color: maroon;
+    color: white;
+}
+
+.dra,
+.the,
+.mus,
+.var {
+    background-color: orange;
+}
+
+.tok {
+    background-color: #e9e3a9;
+}
+.student.active {
+    background-color: lightgray;
+    padding: 0.5em 0.5em;
+}
